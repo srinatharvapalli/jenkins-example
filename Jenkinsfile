@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent windows-node
 
     stages {
         stage ('Compile Stage') {
