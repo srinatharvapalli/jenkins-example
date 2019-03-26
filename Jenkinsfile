@@ -1,5 +1,5 @@
 pipeline {
-    agent windows-node
+    agent centos7-node
 
     stages {
         stage ('Compile Stage') {
