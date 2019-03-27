@@ -1,5 +1,5 @@
 pipeline {
-    agent centos7-node
+    agent centos7-new
 
     stages {
         stage ('Compile Stage') {
